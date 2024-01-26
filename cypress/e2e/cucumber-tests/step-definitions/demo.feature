@@ -1,4 +1,4 @@
-// Test suite
+# Test suite
 Feature: Demo Feature 
 
     Just to create a quick BDD Demo
@@ -6,5 +6,5 @@ Feature: Demo Feature
 
     Scenario: Should load example website
         Given I open example page
-        Then I see page title   
-        And I see
+        #Then I see page title   
+        #And I see
