@@ -1,4 +1,5 @@
-Feature: Demo Feature
+// Test suite
+Feature: Demo Feature 
 
     Just to create a quick BDD Demo
     this is the second line of the description 
@@ -6,3 +7,4 @@ Feature: Demo Feature
     Scenario: Should load example website
         Given I open example page
         Then I see page title   
+        And I see
