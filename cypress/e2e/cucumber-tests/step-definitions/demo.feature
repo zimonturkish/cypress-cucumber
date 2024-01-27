@@ -8,3 +8,13 @@ Feature: Demo Feature
         Given I open example page 
         Then I see page title "Example"
         And I see text
+
+    Scenario Outline: Scenario Outline name: Should load example website
+        Given I open example page 
+        Then I see page title "<title>"
+        And I see text
+
+    Examples:
+        | title | 
+        | Example | 
+
