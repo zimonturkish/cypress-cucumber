@@ -5,6 +5,6 @@ Feature: Demo Feature
     this is the second line of the description 
 
     Scenario: Should load example website
-        Given I open example page
-        Then I see page title   
+        Given I open example page 
+        Then I see page title "Example"
         And I see text
